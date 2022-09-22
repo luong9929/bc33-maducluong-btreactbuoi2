@@ -1,0 +1,33 @@
+body{
+    background-image: url("./glassesImage/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.model .row .col-6{
+    background-image: url('./glassesImage/model.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 500px;
+    padding: 0 140px;
+    position: relative;
+}
+.model .row .col-6  img{
+    width: 253px;
+    position: absolute;
+    bottom: 291px;
+    left: 205px;
+}
+
+.model .row .col-6 .item .text{
+    background-color: rgba(240, 174, 51, 0.547);
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    margin: 0 125px;
+    padding: 0 20px;
+    color: white;
+    text-align: left;
+}
